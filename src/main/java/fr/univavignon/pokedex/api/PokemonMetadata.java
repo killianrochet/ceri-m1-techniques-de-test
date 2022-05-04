@@ -64,4 +64,9 @@ public class PokemonMetadata {
 		return stamina;
 	}
 
+	/** Get all meta data **/
+	public PokemonMetadata getPokemonMetadata(int index){
+		return null;
+	}
+
 }
