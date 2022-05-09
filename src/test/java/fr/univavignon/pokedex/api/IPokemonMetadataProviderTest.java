@@ -9,7 +9,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 
-public class IPokemonMetadataProviderTest extends TestCase {
+public class IPokemonMetadataProviderTest{
     IPokemonMetadataProvider metaData = mock(IPokemonMetadataProvider.class);
     PokemonMetadata bulbizarre = new PokemonMetadata(0,"Bulbizarre",126,126,90);
     PokemonMetadata aquali = new PokemonMetadata(133,"Aquali",186,168,260);

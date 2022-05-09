@@ -12,7 +12,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 
-public class IPokedexTest extends TestCase {
+public class IPokedexTest{
     public static List<Pokemon> pokedex;
     IPokedex iPokedex;
     IPokemonFactory iPokemonFactory;

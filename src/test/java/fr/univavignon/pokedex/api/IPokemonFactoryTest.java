@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class IPokemonFactoryTest extends TestCase {
+public class IPokemonFactoryTest{
 
     IPokemonFactory pokemon = mock(IPokemonFactory.class);
     Pokemon bulbizarre = new Pokemon(0,"Bulbizarre",126,126,90,613,64,4000,4,56);
