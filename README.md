@@ -37,5 +37,12 @@ Pour chaque rendu, le projet dans son intégralité doit être déposé sur la p
 [^1]: Si vous n’êtes vraiment pas à l’aise avec cet outil nous vous conseillons quand même vivement de vous y mettre.
 
 --------- BADGES ------------
+
+Rochet Killian
+M1 ILSEN ALTERNANT
+UE Technique de Test
 [![codecov](https://codecov.io/gh/killianrochet/ceri-m1-techniques-de-test/branch/master/graph/badge.svg?token=8FB0Y31C9R)](https://codecov.io/gh/killianrochet/ceri-m1-techniques-de-test)
+
+
+[![CircleCI](https://circleci.com/gh/killianrochet/ceri-m1-techniques-de-test/tree/master.svg?style=svg)](https://circleci.com/gh/killianrochet/ceri-m1-techniques-de-test/tree/master)
 
