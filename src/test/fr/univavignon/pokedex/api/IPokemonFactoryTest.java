@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
+//Test
 public class IPokemonFactoryTest{
 
     IPokemonFactory pokemon = mock(IPokemonFactory.class);
