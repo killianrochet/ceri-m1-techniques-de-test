@@ -1,4 +1,5 @@
 package fr.univavignon.pokedex.api;
+import junit.framework.TestCase;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
@@ -11,7 +12,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 
-public class IPokedexTest {
+public class IPokedexTest extends TestCase {
     public static List<Pokemon> pokedex;
     IPokedex iPokedex;
     IPokemonFactory iPokemonFactory;

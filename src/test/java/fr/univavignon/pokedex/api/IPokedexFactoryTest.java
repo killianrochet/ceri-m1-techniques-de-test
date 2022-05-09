@@ -1,11 +1,12 @@
 package fr.univavignon.pokedex.api;
+import junit.framework.TestCase;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class IPokedexFactoryTest {
+public class IPokedexFactoryTest extends TestCase {
 
     IPokedexFactory pokedex = mock(IPokedexFactory.class);
     IPokemonMetadataProvider metaData = mock(IPokemonMetadataProvider.class);

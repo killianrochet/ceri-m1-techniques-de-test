@@ -1,12 +1,13 @@
 package fr.univavignon.pokedex.api;
 
+import junit.framework.TestCase;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class IPokemonFactoryTest {
+public class IPokemonFactoryTest extends TestCase {
 
     IPokemonFactory pokemon = mock(IPokemonFactory.class);
     Pokemon bulbizarre = new Pokemon(0,"Bulbizarre",126,126,90,613,64,4000,4,56);
